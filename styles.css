@@ -1,0 +1,26 @@
+:root{
+    --orange: #ff8482;
+    --light-orange: #ffb294;
+    --cream: #f8d8a5;
+    --mint: #91be95;
+    --chocolate: #635a49;
+    --white: #fff;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    outline: 1ps solid pink;
+}
+main{
+    width: min(80%, 800px);
+    margin: 0 auto;
+    background-color: var(--light-orange);
+    color: var(--white);
+    padding: 20px 40px;
+}
+h1{
+    text-align: center;
+    font-size: min(7vw, 50px);
+}
